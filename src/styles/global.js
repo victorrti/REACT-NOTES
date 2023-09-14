@@ -9,6 +9,12 @@ export default createGlobalStyle`
         background: ${ ({theme}) => theme.COLORS.BACKGROUND_800};
         color:${({theme}) => theme.COLORS.WHITE}
     }
+    
+    button , a,textarea, body {
+        font-family: 'Roboto Slab', serif;
+        font-size:16px;
+    }
+
     a{
         text-decoration: none;
     }
