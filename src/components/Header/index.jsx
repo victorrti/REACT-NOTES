@@ -1,7 +1,7 @@
 import {Container,Profile} from './style'
 
 export function Header(){
-    return(
+    return(        
         <Container>
             <Profile>
                 <img src="https://github.com/victorrti.png" alt="foto do usuario"></img>
@@ -9,6 +9,7 @@ export function Header(){
                     <span>Bem-vindo!</span>
                     <strong>Victor Pereira</strong>
                 </div>
+                
                 
             </Profile>
         </Container>
