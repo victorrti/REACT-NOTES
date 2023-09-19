@@ -2,6 +2,8 @@ import{Container,Form} from './styles'
 import {Header} from '../../components/Header'
 import {Input} from '../../components/Input'
 import { TextArea } from '../../components/TextArea'
+import { NoteItem} from '../../components/NoteItem'
+import {Section} from '../../components/Section'
 
 
 export function New(){
@@ -16,6 +18,10 @@ export function New(){
                     </header>
                     <Input placeholder="Titulo"></Input>
                     <TextArea placeholder="Observações"/>
+                    <Section title="Links Uteis">
+                        <NoteItem value="https://github.com/victorrti"></NoteItem>
+                        <NoteItem value=""  isNew={true}></NoteItem>
+                    </Section>
                 </Form>
             </main>
         </Container>
