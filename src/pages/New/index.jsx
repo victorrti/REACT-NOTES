@@ -4,6 +4,7 @@ import {Input} from '../../components/Input'
 import { TextArea } from '../../components/TextArea'
 import { NoteItem} from '../../components/NoteItem'
 import {Section} from '../../components/Section'
+import {Button} from '../../components/Button'
 
 
 export function New(){
@@ -22,6 +23,15 @@ export function New(){
                         <NoteItem value="https://github.com/victorrti"></NoteItem>
                         <NoteItem value=""  isNew={true}></NoteItem>
                     </Section>
+                    <Section>
+                        <div className="tags">
+                            <NoteItem value="React"></NoteItem>
+                            <NoteItem value="Nova Tag"  isNew={true}></NoteItem>
+
+                        </div>
+                        
+                    </Section >
+                    <Button title="Salvar" />
                 </Form>
             </main>
         </Container>

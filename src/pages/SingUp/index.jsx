@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 import {Container,Form,Background} from './style'
 import {Input} from '../../components/Input'
 import {FiLogIn,FiMail, FiLock,FiUser} from 'react-icons/fi'
@@ -26,7 +27,7 @@ export function SingUp(){
                 type="password"
                 icon={FiLock}/>
                 <Button title="cadastrar"/>
-                <ButtonText title="Voltar Parar o Login"/>
+                <Link to="/">Voltar Parar o Login</Link>                
                 
             </Form>
             

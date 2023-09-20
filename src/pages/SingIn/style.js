@@ -32,7 +32,7 @@ export const Form = styled.form`
         font-size: 24px;
         color:${({theme})=>theme.COLORS.GRAY_100}
     }
-    button+button{
+    button+a{
         color:${({theme})=>theme.COLORS.ORANGE};
         margin-top:124px;
     }

@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 import {Container,Form,Background} from './style'
 import {Input} from '../../components/Input'
 import {FiLogIn,FiMail, FiLock} from 'react-icons/fi'
@@ -20,8 +22,8 @@ export function SingIn(){
                 placeholder="Senha"
                 type="password"
                 icon={FiLock}/>
-                <Button title="Entrar"/>
-                <ButtonText title="cadastre-se"/>
+                <Button title="Entrar"/>                
+                <Link to="/register">Cadastre se</Link>
             </Form>
             <Background/>
         </Container>
