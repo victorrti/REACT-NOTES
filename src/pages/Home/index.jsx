@@ -22,7 +22,7 @@ export function Home(){
         </Search>
         <Content>
             <Section title="Minhas Notas">
-                <Note data={{
+                <Note to="/details" data={{
                     title:"React", 
                     tags:[
                         {id:'1',name:'React'},
@@ -33,7 +33,7 @@ export function Home(){
             </Section>
             
         </Content>
-        <NewNote>
+        <NewNote to="/new">
                 <FiPlus/>
                 Criar nota           
         </NewNote>
